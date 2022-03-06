@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "13f36c0d-981e-4df4-9549-8d4d102a14cd",
+		"name": "AQI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get AQI Data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\": \"31-Jan-2022\",\r\n    \"hour\": 18,\r\n    \"stationName\": \"Secretariat, Amaravati - APPCB\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/aqidata",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"aqidata"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

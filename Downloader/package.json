@@ -1,0 +1,17 @@
+{
+  "name": "autodownloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Downloader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-cron": "^3.0.0",
+    "node-downloader-helper": "^1.0.18",
+    "xml2js": "^0.4.23"
+  }
+}
