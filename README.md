@@ -30,6 +30,7 @@
     - name: string unique
     - cityName
     - stateName
+    
 - AQIData
     - name: string
     - avg: number
@@ -42,6 +43,7 @@
 ## API Endpoints
 ```
 POST Req: api/v1/aqidata
+
 Body: {
     "date": "26-Feb-2022",
     "hour": 11,
@@ -49,9 +51,12 @@ Body: {
 }
 
 Four Retrieval options
-1 Station Name, hour and date: Particular station AQI data for a particular hour on a given day
-2 Station Name and date: Particular station AQI data on a given day
-3 Date and hour: All stations AQI data for a particular hour on a given day
-4 Date only: All stations AQI data for whole day on a given date
 
+1. Station Name, hour and date: Particular station AQI data for a particular hour on a given day
+
+2. Station Name and date: Particular station AQI data on a given day
+
+3. Date and hour: All stations AQI data for a particular hour on a given day
+
+4. Date only: All stations AQI data for whole day on a given date
 ```
