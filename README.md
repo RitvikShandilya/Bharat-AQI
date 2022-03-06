@@ -1,4 +1,9 @@
 
+## Authors
+
+- [Ritvik Shandilya](https://github.com/ritvikshandilya)
+
+
 # Rest API for getting data from aqi stations working all over india
 
 
