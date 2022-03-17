@@ -4,7 +4,7 @@
 - [Ritvik Shandilya](https://github.com/ritvikshandilya)
 
 
-# Rest API for getting data from aqi stations working all over india
+# Rest API for getting data from aqi stations working all over india - Deploy to any cloud provider to get the latest available AQI data.
 
 
 
