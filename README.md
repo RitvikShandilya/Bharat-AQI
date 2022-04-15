@@ -7,6 +7,9 @@
 # Rest API for getting data from aqi stations working all over india - Deploy to any cloud provider to get the latest available AQI data.
 
 
+## Well tested on local environment
+![AQIVIDEO](https://user-images.githubusercontent.com/5859629/163575215-a7240a27-8401-4e66-a638-802441c0f05c.gif)
+
 
 ## AQI Data Variables
 `PM 2.5`
